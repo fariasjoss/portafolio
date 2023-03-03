@@ -1,0 +1,138 @@
+.experience__section__title{
+    font-weight: 700;
+    font-size: 1.3rem;
+    text-align: center;
+    margin-top: 0.6rem;
+    margin-bottom: 0.9rem;
+}
+
+.experience{
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+.experience__img{
+    width: 295px;
+    height: 180px;
+    padding: 1rem;
+    margin-bottom: 0.2rem;
+    margin-left: 1.4rem;
+}
+
+.experience__title{
+    margin-left: 2.4rem;
+    font-weight: 700;
+    font-size: 1.1rem;  
+    margin-bottom: 0.5rem;
+}
+.experience__text{
+    margin-left: 2.4rem;
+    font-weight: 400;
+    font-size: 0.9rem;
+    margin-bottom: 0.7rem;  
+}
+
+.experiencia__botao--repo{
+    width: 120px;
+    height: 39px;
+    color: #2A7AE4;
+    margin-left: 2.4rem;
+    border-color: darkblue;
+    margin-bottom: 0.7rem;
+    border-radius: 10px;
+}
+
+.experiencia__botao--repo:hover {
+    width: 135px;
+    height: 49px;
+    color:green;
+}
+.experience__botao--demo{
+    width: 120px;
+    height: 39px;
+    background-color:  #2A7AE4;
+    margin-left: 1rem;
+    border:none;
+    color: #ffffff;
+    border-radius: 10px;
+}
+
+@media screen and (min-width:767px){
+    .experience{
+        padding-top: 2rem;
+        padding-bottom: 1.3rem;
+    }
+    .experience__img{
+        width: 668px;
+        height: 309px;
+        padding: 1.6rem;
+        margin-left: 1.46rem;
+        margin-bottom: -0.5rem;
+    }
+    .experience__title{
+        margin-left: 3.1rem;
+    }
+    .experience__text{
+        margin-left: 3.1rem;
+    }
+    .experiencia__botao--repo{
+        margin-left: 3rem;
+    }
+    .experience__botao--demo{
+        margin-left: 0.55rem;
+    }
+}
+
+@media screen and (min-width:1023px){
+    .experience__box{
+        display: flex;
+        align-items: center;
+        padding-left: 0.8rem;
+    }
+    .experience__info-container{
+        padding-left: 0.4rem;
+    }
+    .experience__title{
+        margin-left: -0.9rem;
+    }
+    .experience__text{
+        margin-left: -0.9rem;
+    }
+    .experiencia__botao--repo{
+        margin-left: -0.9rem;
+    }
+    .experience__img{
+        width: 605px;
+    }
+    .experiencia__botao--repo{
+        width: 100px;
+        height: 39px;
+    }
+    .experience__botao--demo{
+        width: 100px;
+        height: 39px;
+        margin-left: 0.5rem;
+    }
+    .experiencie__box{
+        display: flex;
+        align-items: center;
+    }
+    .fari{
+        order:1;
+        padding-right: 1rem;
+    }
+    .joe{
+        margin-left:4.6rem;
+        margin-right:1.5rem ;
+    }    
+}
+
+@media screen and (min-width:1250px){
+    .joe{
+        margin-right:4rem ;
+    }  
+    .experience__img{
+        width: 800px;
+        height: 480px;
+    }
+}

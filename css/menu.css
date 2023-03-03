@@ -1,0 +1,114 @@
+.menu {
+ margin: 1rem 0.6rem ; 
+ display: flex; 
+ align-items: baseline;
+ background: #E5E5E5; 
+}
+
+.body{
+    background: #E5E5E5;   
+}
+.menu__header{
+    display: flex;
+    align-items: center; 
+    justify-content: space-between;
+    margin-left: 0.1rem;
+    margin-top: 1rem;
+
+}
+.vector{
+    margin: 0.3rem;
+}
+.menu__title{
+    flex-wrap: nowrap;
+    width: 7rem;
+    font-weight: 800;
+    font-size: 1rem;
+    color: #464646;
+
+}
+
+.menu__list__item{
+    display:none;
+}
+
+.menu__list__item__contato{
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    margin-left: 2.4rem;
+    font-family: 'Raleway';
+    font-weight: 300;
+    color: #464646;
+    font-size: 0.8rem;
+}
+
+@media screen and (min-width:767px) {
+    .menu{
+        margin-left: 1rem;
+        margin-top: 0.4rem;
+        padding-bottom: 1.5rem;
+    }
+    .menu__title{
+        padding-left: 0.6rem;
+    }
+
+    .menu__list__item__contato{
+        margin-left: 13.7rem; 
+        font-weight: 950;
+
+    } 
+    
+}
+
+@media screen and (min-width:1023px){
+    .menu{
+        
+        margin-right: 0.1rem;
+        margin-left:3rem;
+    }
+    .menu__header{
+       width: 100%;
+       justify-content: start;
+    }
+    .menu__list__item{
+        display:inline-block;
+        margin-right: 0.7rem;
+        font-weight: 100;
+        justify-content: space-between;
+    }
+    .menu__list__item__contato{
+        margin-left: 0.4rem;
+        order: 1;
+        margin-right: 1.7rem;
+        font-weight: 990;
+        color: black;
+        font-size: 1rem;
+    }
+    .navegador{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;  
+    }
+    .menu__title{
+        margin-right: 19%;
+        font-weight: 990;
+        color: black;
+    }
+   a{
+    font-weight: 200;
+   }
+}
+
+@media screen and (min-width:1250px){
+    .menu__title{
+    margin-right: 35%;
+    }
+    .menu__header{
+        justify-content: start;
+    }
+    .menu{
+        margin-right: -0.5rem;
+        margin-left:3rem;
+    }
+}
